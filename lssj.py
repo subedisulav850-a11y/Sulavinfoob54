@@ -47,11 +47,11 @@ async def QwE(jt, pt):
 def AsD(reg):
     reg = reg.upper()
     if reg == "IND":
-        return "uid=4684070621&password=sulav-YCO9U2HNY-CORE"
+        return "uid=4672019968&password=C553A0265488710F3084F59AFC5B1804CC129ABC53D51BD54C7E7C62727421B7"
     elif reg in {"BR", "US", "SAC", "NA"}:
         return "uid=4684094997&password=sulav-HQJ4M1SYC-CORE"
     else:
-        return "uid=4684076977&password=sulav-RE6V8KV2D-CORE"
+        return "uid=7116628448&password=136F0889C969659F02F058847BC61832C22F69DA650E1FBA2751F97817D03EB8"
 
 async def ZxV(acc):
     url = "https://ffmconnect.live.gop.garenanow.com/oauth/guest/token/grant"
@@ -106,7 +106,7 @@ async def LoL(uid, unk, reg, ep):
 def HeHe(d):
     return d
 
-@FAHHHH.route('/Bmw')
+@FAHHHH.route('/Sulav')
 def OMG():
     uid = request.args.get('uid')
     if not uid:
